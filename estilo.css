@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+
+@media (orientation: landscape) {
+    html {
+      background-color: yellow;
+    }
+  }
+  
+  @media (orientation: portrait) {
+    html {
+      background-color: limegreen;
+    }
+  }
+
+  @media screen and (min-width: 500px) {
+    html {
+      background-color: lightblue;
+    }
+  }
+
+  header {
+      background-color: lightsalmon;
+  }
+
+  h1.primero {
+      color: rgb(238,75,75);
+      font-family: "Zhi Mang Xing", monospace;
+  }
+
+  h1::first-letter {
+    background-color: bisque;
+    color: chocolate;
+    float: left;
+    font-family: helvetica;
+    font-size: 300%;
+  }
+
+  section.segunda {
+      background-color: rgb(110, 218, 96);
+  }
+
+  section.tercera {
+      background-color: blanchedalmond;
+  }
+
+  table.tablaprimera {
+      background-color: goldenrod;
+      width: 35%;
+      height: 20%;
+  }
+
+  hr {
+    height: 20px;
+    width: 25%;
+    background-color: blue;
+    border-color: red;
+  }
+
+  section.cuarta {
+      background-color: chocolate;
+  }
+
+  p.quinta {
+      color: yellow;
+      border-color: blue red yellow;
+      border-width: 10px 40px;
+      border-style: dotted solid dashed;
+      text-align: center;
+  }
+
+  footer {
+      background-color: rgb(238,75,75);
+  }
+
+  table.sexta {
+      width: 50%;
+  }
+
+  div {
+      color: red;
+  }
+
+
+ td.cambio {
+     color: black;
+
+  }
+ td.primero:hover {
+      background-color: red;
+    
+ }
