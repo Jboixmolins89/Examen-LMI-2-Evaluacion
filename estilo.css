@@ -1,4 +1,10 @@
+/* Para importar letra de google fons */
+
 @import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+
+/* Para ver en el movil el fondo diferente y en el pc */
+
+/* Creador por Jose Antonio Boix */
 
 @media (orientation: landscape) {
     html {
@@ -18,6 +24,8 @@
     }
   }
 
+/* Fin modificaciones fondo */
+
   header {
       background-color: lightsalmon;
   }
@@ -27,6 +35,8 @@
       font-family: "Zhi Mang Xing", monospace;
   }
 
+/* cambiar la primera letra */
+
   h1::first-letter {
     background-color: bisque;
     color: chocolate;
@@ -34,6 +44,8 @@
     font-family: helvetica;
     font-size: 300%;
   }
+
+  /* Css para fondos, tamaños y colores */
 
   section.segunda {
       background-color: rgb(110, 218, 96);
@@ -46,7 +58,7 @@
   table.tablaprimera {
       background-color: goldenrod;
       width: 35%;
-      height: 20%;
+      height: 40%;
   }
 
   hr {
@@ -80,12 +92,32 @@
       color: red;
   }
 
+/* Fin Css tamaño, fondos , colores */
+
+/* Cambios en la tabla paises */
 
  td.cambio {
      color: black;
-
   }
- td.primero:hover {
+
+ td.cambio:hover {
       background-color: red;
-    
+      color: none; 
  }
+
+ td.cambiodos {
+     color: black;
+ }
+
+ td.cambiodos:hover{
+     background-color: white;
+ }
+    
+
+    input:focus {
+      border-color: red;
+      background-color: blue;
+    }
+
+/* Fin cambios tabla paises */
+  
